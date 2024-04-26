@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PS1 BaisGrammar.ps1",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}\\BasicGrammar.ps1",
+            "args": [
+                "-argString", "HelloArgument",
+                "-argBoolean", "true",
+                "-argNumber", "1",
+                "-argWorkspaceFolderPath", "${workspaceFolder}"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "PS1 Test.ps1",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}\\Test.ps1",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
